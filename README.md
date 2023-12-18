@@ -4,7 +4,7 @@ This import is used for hacking in python
 
 Currently we only have RansomWare Encryption for now!
 
-We are Currently working on Hash Cracking for windows 10
+We are Currently working on Packet Sniffing
 
 
 
@@ -29,7 +29,7 @@ We are Currently working on Hash Cracking for windows 10
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `KEY`      | `data: bytes` | **Required**. Encrypts all files in the C: directory and creates a file for key|
+| `KEY`      | `data: bytes` | **Required**. Encrypts all files in the D: directory and creates a file for key|
 
 
 
@@ -39,12 +39,6 @@ We are Currently working on Hash Cracking for windows 10
 **WINDOWS**
 ```CMD
    pip install BlckFlg
-```
-
-**LINUX**
-```bash
-  npm install BlckFlg
-  cd BlckFlg
 ```
     
 ## Authors
