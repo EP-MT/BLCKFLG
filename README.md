@@ -61,7 +61,7 @@ To deploy this project run
 ```
 
 ```bash
-  start BLCKFLG.exe
+  wine BLCKFLG.exe
 ```
 
 
