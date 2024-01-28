@@ -18,12 +18,6 @@ Install BLCKFLG with pip
 ```cmd
   pip install BLCKFLG
 ```
-
-Install BLCKFLG with npm
-```bash
-  npm install BLCKFLG
-  cd BLCKFLG
-```
     
 # General UI
 
