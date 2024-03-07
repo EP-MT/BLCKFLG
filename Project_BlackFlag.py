@@ -14,7 +14,40 @@ m = Tk()
 m.title('BLCKFLG')
 m['bg'] = 'black'
 m.geometry('400x400+500+100')
+
+
+def serversupport():
+    def client_program(port1):
+        host = socket.gethostname()  # as both code is running on same pc
+        port = port1  # socket server port number
+
+        client_socket = socket.socket()  # instantiate
+        client_socket.connect((host, port))  # connect to the server
         
+        client_socket.close()
+        
+        
+    win= Tk()
+    win.title('Server Support')
+    win['bg'] = 'black'
+    win.geometry("750x250")
+        
+    entry= Entry(win, width= 40)
+    entry.pack()
+
+    def change_value():
+       value = 1
+       value -= 1
+       if value == 0:
+            string = int(entry.get())
+            client_program(string)
+            value = 1
+
+    ttk.Button(win, text= "confirm",width= 20, command= change_value).pack(pady=20)
+    
+    win.mainloop()
+
+
 '''
 Encryption Function
 '''
