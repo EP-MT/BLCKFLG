@@ -5,6 +5,9 @@ BLCKFLG is a hacking tool made in python
 
 Functionalities in BLCKFLG are Keylogger, RansomWare,  Fake Notifications and Port
 
+This was made purely with good intentions just to see if I can code something good. 
+I do not endorse malicous attacks adn was made with no malicouis intents
+
 # Authors
 
 - [@EP-MT](https://www.github.com/EP-MT)
