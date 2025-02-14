@@ -13,11 +13,7 @@ Functionalities in BLCKFLG are Keylogger, RansomWare,  Fake Notifications and Po
 
 # Installation
 
-Install BLCKFLG with pip
-
-```cmd
-  pip install BLCKFLG
-```
+Install BLCKFLG from this repo
     
 # General UI
 
@@ -41,20 +37,6 @@ Install BLCKFLG with pip
 -Bottom Text Box is the End Port
 
 ![App Screenshot](https://i.imgur.com/lelQKL2.png)
-
-
-# Deployment
-
-To deploy this project run
-
-```cmd
-  start BLCKFLG.exe
-```
-
-```bash
-  wine BLCKFLG.exe
-```
-
 
 # Badges
 
